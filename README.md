@@ -269,9 +269,9 @@ Research Areas:
 
 📍 Mumbai, India
 
-💼 LinkedIn: *(Add your LinkedIn profile link)*
+💼 LinkedIn: *(www.linkedin.com/in/eshaanpilar)*
 
-📧 Email: *(Add your preferred email address)*
+📧 Email: *(eshaanpilar@gmail.com)*
 
 ---
 
