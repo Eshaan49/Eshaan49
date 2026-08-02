@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Eshaan Pilar
+# Hi, I'm Eshaan Pilar
 
 ### Cybersecurity Student | Detection Engineering | Threat Intelligence | Cloud Security
 
