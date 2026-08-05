@@ -1,4 +1,4 @@
-<h1 align="center">Hi there, I'm Eshaan Pilar 👋</h1>
+<h1 align="center">Hi there, I'm Eshaan Pilar </h1>
 <h3 align="center">🛡️ Cybersecurity Student | Detection Engineering | Threat Intel</h3>
 
 <p align="center">
