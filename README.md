@@ -1,83 +1,85 @@
-# Hi there, I'm Eshaan Pilar 👋
+<h1 align="center">Hi there, I'm Eshaan Pilar 👋</h1>
+<h3 align="center">🛡️ Cybersecurity Student | Detection Engineering | Threat Intel</h3>
 
-### 🛡️ Cybersecurity Student | Detection Engineering | Threat Intel | Cloud Security
-
-I am a Computer Science and Cybersecurity student at Thakur College of Engineering and Technology in Mumbai[cite: 1]. My passion lies in building practical Blue Team labs, engineering threat detections, and deploying robust defense solutions, backed by hands-on internship experience in vulnerability assessment and tool development[cite: 1]. 
-
----
-
-### 💼 Professional Experience
-
-*   **Cybersecurity Intern** @ *Intervision Technology* 
-    *   Conducted vulnerability assessments using Nmap and Burp Suite across web and network targets[cite: 1]. 
-    *   Developed a Python-based Keylogger Detection and Blocking tool to detect malicious process activity with real-time monitoring and alerting[cite: 1].
-*   **Cybersecurity Awareness Intern** @ *Cyber Peace Foundation* 
-    *   Developed cybersecurity awareness resources and presented digital safety topics to student audiences[cite: 1].
-
----
-
-### 🚀 Featured Projects
-
-*   **[Honeypot Intel - Live Threat Intel Platform](#)** 🍯
-    *   *Tech Stack:* AWS EC2, Cowrie, AbuseIPDB API, Flask, Plotly[cite: 1].
-    *   *Impact:* Deployed a live Cowrie SSH honeypot capturing 3,900+ real connection attempts from 1,400+ unique attacker IPs across 28+ countries[cite: 1]. 
-    *   *Highlights:* Identified a live multi-stage malware deployment attempt (payload download, execution, and UPX-packing evasion) directly from captured attack logs[cite: 1]. Automated nightly threat-intelligence enrichment via cron and the AbuseIPDB API, engineering a caching layer to operate within free-tier rate limits, and built a real-time dashboard that auto-syncs over SSH to visualize threat data end-to-end[cite: 1].
-
-*   **[SentinelX - AI-Assisted SOC Platform](#)** 👁️‍🗨️
-    *   *Tech Stack:* Wazuh, VMware, Windows 11, MITRE ATT&CK[cite: 1].
-    *   *Impact:* Deployed a self-hosted Wazuh SIEM with a live Windows 11 agent and simulated 3 attack scenarios: Brute Force (T1110), Obfuscated PowerShell (T1059.001/T1027), and Backdoor Account Creation (T1136.001/T1098)[cite: 1].
-    *   *Highlights:* Identified a detection gap in the default ruleset and authored a custom `pcre2` detection rule, elevating severity from Level 3 to Level 12 with full MITRE ATT&CK mapping[cite: 1]. Produced formal incident reports INC-001 to INC-003[cite: 1].
-
-*   **[Budget Wallet - AI-Powered Finance Dashboard](#)** 💸
-    *   *Tech Stack:* Next.js, Supabase[cite: 1].
-    *   *Impact:* Built a full-stack personal finance platform between August 13 and October 4 with real-time expense tracking, AI-powered spending insights, category-based analytics, and dynamic financial visualisations[cite: 1].
-
-*   **[Active Directory Lab with PowerShell Remoting](#)** 🏢
-    *   *Tech Stack:* VMware, PowerShell, Active Directory, Windows Server[cite: 1].
-    *   *Impact:* Built an enterprise-grade AD environment with DNS, domain controller, Group Policy, and PowerShell user provisioning[cite: 1]. Simulated privilege escalation and lateral movement scenarios[cite: 1].
-
----
-
-### 💻 Tech Stack & Tools
-
-**SIEM, Detection & Offensive Security:**
-![Wazuh](https://img.shields.io/badge/Wazuh-00A9E5?style=for-the-badge&logo=wazuh&logoColor=white)
-![Cowrie](https://img.shields.io/badge/Cowrie_Honeypot-FFA500?style=for-the-badge&logo=linux&logoColor=white)
-![MITRE](https://img.shields.io/badge/MITRE_ATT&CK-FF0000?style=for-the-badge&logo=mitre&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-2B7A78?style=for-the-badge&logo=nmap&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
-
-**Infrastructure & Cloud:**
-![AWS](https://img.shields.io/badge/AWS_EC2-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Active Directory](https://img.shields.io/badge/Active_Directory-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
-
-**Programming & Scripting:**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
----
-
-### 🏆 Certifications & Achievements
-
-*   **Google Cybersecurity Professional Certificate:** Covering Network Security, Linux & SQL, Threat Detection, and Python[cite: 1].
-*   **MULTICON-W 2026 (IC-CCDS):** Secured 3rd place and presented a research paper on an AI-based intrusion detection system at an international conference[cite: 1].
-*   **Indian Army Terrier Cyber Quest:** Qualified for the six-hour online Capture the Flag shortlisting challenge in the bug hunting track.
-*   **PowerShell Scripting:** Certified in automation and system administration via Udemy[cite: 1].
-
----
-
-### 📊 GitHub Stats
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Eshaan49&show_icons=true&theme=radical" alt="Eshaan's GitHub Stats" />
+<p align="center">
+  <!-- This creates a cool hacker-style typing animation for your header -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=00A9E5&center=true&vCenter=true&width=600&lines=Building+practical+Blue+Team+labs;Authoring+custom+detection+rules;Securing+AWS+Infrastructure;Deploying+Threat+Intel+Honeypots" alt="Typing SVG" />
+  </a>
 </p>
 
----
+<p align="center">
+  I am a Computer Science and Cybersecurity student at Thakur College of Engineering and Technology in Mumbai. My focus is strictly on the <b>Blue Team</b> domain—engineering threat detections, automating intel enrichment, and building robust, enterprise-grade defense labs.
+</p>
 
-### 📫 Let's Connect!
+<hr>
 
-<a href="https://linkedin.com/in/eshaanpilar" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:eshaanpilar@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<h3 align="center">💻 Tech Stack & Arsenal</h3>
+<p align="center">
+  <!-- This generates a beautiful, clean grid of animated skill icons -->
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=aws,linux,windows,vmware,python,powershell,js,html,css,mysql,git,github" alt="Eshaan's Tech Stack" />
+  </a>
+</p>
+<p align="center">
+  <b>Security & SIEM:</b> Wazuh | Cowrie | MITRE ATT&CK | Nmap | Burp Suite | AbuseIPDB API
+</p>
+
+<hr>
+
+<h3 align="center">🚀 Featured Engineering Projects</h3>
+
+<!-- Using an HTML table creates a highly professional two-column grid for your projects -->
+<table bordercolor="#30363d">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🍯 <a href="#">Honeypot Intel Platform</a></h3>
+      <p>Deployed a live Cowrie SSH honeypot on AWS capturing <b>3,900+ real connection attempts</b>. Identified live multi-stage malware deployment and engineered a caching layer for the AbuseIPDB API to automate nightly threat enrichment.</p>
+      <code>AWS EC2</code> <code>Cowrie</code> <code>Flask</code> <code>Plotly</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3>👁️‍🗨️ <a href="#">SentinelX SOC Platform</a></h3>
+      <p>Self-hosted Wazuh SIEM with a live Windows 11 agent. Simulated attack scenarios (T1110, T1059.001) and authored custom <code>pcre2</code> detection rules mapped directly to the MITRE ATT&CK framework.</p>
+      <code>Wazuh</code> <code>VMware</code> <code>MITRE ATT&CK</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏢 <a href="#">Active Directory Lab</a></h3>
+      <p>Enterprise-grade AD environment built from the ground up with DNS, domain controllers, and Group Policy. Simulated privilege escalation and lateral movement.</p>
+      <code>Windows Server</code> <code>PowerShell</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3>💸 <a href="#">Budget Wallet Dashboard</a></h3>
+      <p>Full-stack personal finance platform built between August 13 and October 4. Features real-time expense tracking, dynamic visualizations, and AI-powered spending insights.</p>
+      <code>Next.js</code> <code>Supabase</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📱 <a href="#">DRISHTI Security System</a></h3>
+      <p>A smartphone security framework featuring facial recognition capabilities and a custom guest mode. Presented as a formal case study at the conference level.</p>
+      <code>Python</code> <code>AI/ML</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏆 Top Achievements</h3>
+      <ul>
+        <li><b>3rd Place:</b> MULTICON-W 2026 (Intrusion Detection Research)</li>
+        <li><b>Qualifier:</b> Indian Army Terrier Cyber Quest (CTF)</li>
+        <li><b>Cert:</b> Google Cybersecurity Professional</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<hr>
+
+<h3 align="center">📫 Connect With Me</h3>
+<p align="center">
+  <a href="https://linkedin.com/in/eshaanpilar" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:eshaanpilar@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
