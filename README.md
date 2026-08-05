@@ -52,7 +52,7 @@ I am a Computer Science and Cybersecurity student at Thakur College of Engineeri
 ### 📊 GitHub Stats
 *(Optional: You can add dynamic GitHub stats cards here to show your commit activity)*
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical" alt="Eshaan's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=eshaanpilar&show_icons=true&theme=radical" alt="Eshaan's GitHub Stats" />
 </p>
 
 ---
