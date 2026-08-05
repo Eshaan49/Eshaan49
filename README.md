@@ -2,9 +2,8 @@
 <h3 align="center">🛡️ Cybersecurity Student | Detection Engineering | Threat Intel</h3>
 
 <p align="center">
-  <!-- This creates a cool hacker-style typing animation for your header -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=00A9E5&center=true&vCenter=true&width=600&lines=Building+practical+Blue+Team+labs;Authoring+custom+detection+rules;Securing+AWS+Infrastructure;Deploying+Threat+Intel+Honeypots" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=00A9E5&center=true&vCenter=true&width=600&lines=Building+practical+Blue+Team+labs;Authoring+custom+detection+rules;Developing+Behavior-Based+Security+Tools;Deploying+Threat+Intel+Honeypots" alt="Typing SVG" />
   </a>
 </p>
 
@@ -16,57 +15,74 @@
 
 <h3 align="center">💻 Tech Stack & Arsenal</h3>
 <p align="center">
-  <!-- This generates a beautiful, clean grid of animated skill icons -->
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=aws,linux,windows,vmware,python,powershell,js,html,css,mysql,git,github" alt="Eshaan's Tech Stack" />
+    <img src="https://skillicons.dev/icons?i=aws,linux,windows,vmware,python,powershell,ts,react,nextjs,mysql,git,github" alt="Eshaan's Tech Stack" />
   </a>
 </p>
 <p align="center">
-  <b>Security & SIEM:</b> Wazuh | Cowrie | MITRE ATT&CK | Nmap | Burp Suite | AbuseIPDB API
+  <b>Security & SIEM:</b> Wazuh | Cowrie | MITRE ATT&CK | Nmap | Burp Suite | psutil | AbuseIPDB API
 </p>
 
 <hr>
 
-<h3 align="center">🚀 Featured Engineering Projects</h3>
+<h3 align="center">🚀 Featured Repositories & Security Labs</h3>
 
-<!-- Using an HTML table creates a highly professional two-column grid for your projects -->
+<table bordercolor="#30363d">
+  <!-- ROW 1: The Heavy Hitters -->
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🍯 <a href="https://github.com/Eshaan49/HoneypotIntel">HoneypotIntel</a></h3>
+      <p>Cowrie SSH honeypot with automated threat intelligence enrichment and real attack analysis. Captured <b>3,900+ real connection attempts</b> and identified multi-stage malware deployment.</p>
+      <code>python</code> <code>aws</code> <code>honeypot</code> <code>soc</code> <code>cowrie</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3>👁️‍🗨️ <a href="https://github.com/Eshaan49/SentinelX-SOC-Lab">SentinelX-SOC-Lab</a></h3>
+      <p>Self-hosted SOC lab featuring Wazuh SIEM, attack simulation, detection engineering, and formal incident reports. Authored custom `pcre2` rules mapped to the MITRE ATT&CK framework.</p>
+      <code>incident-response</code> <code>threat-hunting</code> <code>siem</code> <code>wazuh</code>
+    </td>
+  </tr>
+  
+  <!-- ROW 2: Python Security Tools -->
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔍 <a href="https://github.com/Eshaan49/keylogger-detection">keylogger-detection</a></h3>
+      <p>Behavior-based Windows keylogger detection tool built to detect malicious process activity with real-time monitoring using Python and the `psutil` library.</p>
+      <code>python</code> <code>malware-analysis</code> <code>psutil</code> <code>windows-security</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔐 <a href="https://github.com/Eshaan49/password_strength_checker">password_strength_checker</a></h3>
+      <p>Python-based security tool that evaluates password strength, estimates entropy, and checks exposure against known data breaches using the HaveIBeenPwned API.</p>
+      <code>python</code> <code>haveibeenpwned</code> <code>password-audit</code> <code>security-tools</code>
+    </td>
+  </tr>
+
+  <!-- ROW 3: Infrastructure & Full-Stack -->
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏢 <a href="https://github.com/Eshaan49/Active-Directory-Lab-PowerShell-Remoting">Active-Directory-Lab-PowerShell-Remoting</a></h3>
+      <p>Enterprise-style Active Directory lab with DNS configuration and PowerShell Remoting using VMware. Used to simulate privilege escalation and lateral movement.</p>
+      <code>powershell</code> <code>active-directory</code> <code>vmware</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3>💸 <a href="https://github.com/Eshaan49/budget-wallet">budget-wallet</a></h3>
+      <p>AI-powered personal finance tracker built between August 13 and October 4. Analyzes spending behavior and provides actionable insights to improve financial habits.</p>
+      <code>react</code> <code>nextjs</code> <code>supabase</code> <code>typescript</code>
+    </td>
+  </tr>
+</table>
+
+<hr>
+
+<h3 align="center">🏆 Certifications & Achievements</h3>
+
 <table bordercolor="#30363d">
   <tr>
-    <td width="50%" valign="top">
-      <h3>🍯 <a href="#">Honeypot Intel Platform</a></h3>
-      <p>Deployed a live Cowrie SSH honeypot on AWS capturing <b>3,900+ real connection attempts</b>. Identified live multi-stage malware deployment and engineered a caching layer for the AbuseIPDB API to automate nightly threat enrichment.</p>
-      <code>AWS EC2</code> <code>Cowrie</code> <code>Flask</code> <code>Plotly</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3>👁️‍🗨️ <a href="#">SentinelX SOC Platform</a></h3>
-      <p>Self-hosted Wazuh SIEM with a live Windows 11 agent. Simulated attack scenarios (T1110, T1059.001) and authored custom <code>pcre2</code> detection rules mapped directly to the MITRE ATT&CK framework.</p>
-      <code>Wazuh</code> <code>VMware</code> <code>MITRE ATT&CK</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🏢 <a href="#">Active Directory Lab</a></h3>
-      <p>Enterprise-grade AD environment built from the ground up with DNS, domain controllers, and Group Policy. Simulated privilege escalation and lateral movement.</p>
-      <code>Windows Server</code> <code>PowerShell</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3>💸 <a href="#">Budget Wallet Dashboard</a></h3>
-      <p>Full-stack personal finance platform built between August 13 and October 4. Features real-time expense tracking, dynamic visualizations, and AI-powered spending insights.</p>
-      <code>Next.js</code> <code>Supabase</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📱 <a href="#">DRISHTI Security System</a></h3>
-      <p>A smartphone security framework featuring facial recognition capabilities and a custom guest mode. Presented as a formal case study at the conference level.</p>
-      <code>Python</code> <code>AI/ML</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏆 Top Achievements</h3>
+    <td width="100%">
       <ul>
-        <li><b>3rd Place:</b> MULTICON-W 2026 (Intrusion Detection Research)</li>
-        <li><b>Qualifier:</b> Indian Army Terrier Cyber Quest (CTF)</li>
-        <li><b>Cert:</b> Google Cybersecurity Professional</li>
+        <li><b>Google Cybersecurity Professional Certificate:</b> Network Security, Linux & SQL, Threat Detection.</li>
+        <li><b>3rd Place - MULTICON-W 2026 (IC-CCDS):</b> Presented a research paper on AI-based intrusion detection at an international conference.</li>
+        <li><b>Indian Army Terrier Cyber Quest:</b> Qualified for the six-hour online CTF shortlisting challenge (Bug Hunting Track).</li>
+        <li><b>Cybersecurity Internships:</b> <i>Intervision Technology</i> (VAPT & Tool Development) & <i>Cyber Peace Foundation</i> (Awareness).</li>
       </ul>
     </td>
   </tr>
